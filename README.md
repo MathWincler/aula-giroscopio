@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 🎮 Colete o Orbe!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Capa do Jogo](https://i.imgur.com/8QO9y9q.png)
 
-## Get started
+Bem-vindo ao "Colete o Orbe!", um jogo casual para dispositivos móveis onde sua habilidade de inclinar o celular é a chave para a vitória. Controle a bolinha para coletar os orbes que aparecem na tela, correndo contra o tempo para alcançar a maior pontuação possível.
 
-1. Install dependencies
+Este projeto foi desenvolvido como um estudo prático das capacidades do **React Native** e **Expo**, explorando o uso de sensores de hardware (giroscópio), manipulação de áudio, e armazenamento local de dados.
 
-   ```bash
-   npm install
-   ```
+## ✨ Funcionalidades
 
-2. Start the app
+* **Controle por Giroscópio:** Movimente o jogador inclinando o seu dispositivo.
+* **Sistema de Pontuação:** Cada orbe coletado aumenta sua pontuação.
+* **Modos de Dificuldade:** Escolha entre os modos Fácil (30s), Médio (15s) e Difícil (10s), cada um com um temporizador diferente.
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **[React Native](https://reactnative.dev/)**: Framework para desenvolvimento de aplicativos móveis multiplataforma.
+* **[Expo](https://expo.dev/)**: Plataforma e conjunto de ferramentas para facilitar o desenvolvimento e a publicação de apps React Native.
+* **[Expo Sensors](https://docs.expo.dev/versions/latest/sdk/sensors/)**: Biblioteca para acessar sensores de hardware do dispositivo, como o Giroscópio.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Como Rodar o Projeto
 
-## Get a fresh project
+Para rodar este projeto em seu ambiente de desenvolvimento, siga os passos abaixo.
 
-When you're ready, run:
+**Pré-requisitos:**
+* Node.js e npm/yarn instalados.
+* Expo Go instalado no seu dispositivo móvel (Android ou iOS).
 
-```bash
-npm run reset-project
-```
+**Passos:**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    ```
 
-## Learn more
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd SEU-REPOSITORIO
+    ```
 
-To learn more about developing your project with Expo, look at the following resources:
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+    *ou, se você usa yarn:*
+    ```bash
+    yarn install
+    ```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+4.  **Inicie o servidor de desenvolvimento do Expo:**
+    ```bash
+    npx expo start
+    ```
 
-## Join the community
+5.  **Abra no seu celular:**
+    Escaneie o QR Code exibido no terminal com o aplicativo Expo Go.
 
-Join our community of developers creating universal apps.
+## 📂 Estrutura do Projeto
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* `App.tsx`: Arquivo principal que contém toda a lógica e os componentes do jogo.
+* `metro.config.js`: Arquivo de configuração para o Metro Bundler, ajustado para reconhecer arquivos de áudio (`.mp3`, `.wav`).
+* `assets/`: Pasta que armazena todos os recursos estáticos.
+    * `assets/sounds/`: Contém os arquivos de áudio do jogo (ex: `collect.mp3`).
+    * `assets/images/`: (Opcional) Pode ser usada para armazenar imagens, como a capa do jogo ou sprites.
+
+## Autores
+- [Matheus](https://github.com/Matheus2614) - matheus.wincler.senai@gmail.com - (https://www.linkedin.com/in/matheus-wincler-968439315/)
