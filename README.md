@@ -1,7 +1,5 @@
 # 🎮 Colete o Orbe!
 
-![Capa do Jogo](https://i.imgur.com/8QO9y9q.png)
-
 Bem-vindo ao "Colete o Orbe!", um jogo casual para dispositivos móveis onde sua habilidade de inclinar o celular é a chave para a vitória. Controle a bolinha para coletar os orbes que aparecem na tela, correndo contra o tempo para alcançar a maior pontuação possível.
 
 Este projeto foi desenvolvido como um estudo prático das capacidades do **React Native** e **Expo**, explorando o uso de sensores de hardware (giroscópio), manipulação de áudio, e armazenamento local de dados.
@@ -66,4 +64,4 @@ Para rodar este projeto em seu ambiente de desenvolvimento, siga os passos abaix
     * `assets/images/`: (Opcional) Pode ser usada para armazenar imagens, como a capa do jogo ou sprites.
 
 ## Autores
-- [Matheus](https://github.com/Matheus2614) - matheus.wincler.senai@gmail.com - (https://www.linkedin.com/in/matheus-wincler-968439315/)
+- [Matheus](https://github.com/Matheus2614) - matheus.wincler.senai@gmail.com - [Linkedin](https://www.linkedin.com/in/matheus-wincler-968439315/)
