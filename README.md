@@ -64,4 +64,4 @@ Para rodar este projeto em seu ambiente de desenvolvimento, siga os passos abaix
     * `assets/images/`: (Opcional) Pode ser usada para armazenar imagens, como a capa do jogo ou sprites.
 
 ## Autores
-- [Matheus](https://github.com/Matheus2614) - matheus.wincler.senai@gmail.com - (https://www.linkedin.com/in/matheus-wincler-968439315/)
+- [Matheus](https://github.com/Matheus2614) - matheus.wincler.senai@gmail.com - [Linkedin](https://www.linkedin.com/in/matheus-wincler-968439315/)
