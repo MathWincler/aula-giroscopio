@@ -9,6 +9,7 @@ Este projeto foi desenvolvido como um estudo prático das capacidades do **React
 * **Controle por Giroscópio:** Movimente o jogador inclinando o seu dispositivo.
 * **Sistema de Pontuação:** Cada orbe coletado aumenta sua pontuação.
 * **Modos de Dificuldade:** Escolha entre os modos Fácil (30s), Médio (15s) e Difícil (10s), cada um com um temporizador diferente.
+* **Efeitos Sonoros:** Efeito sonoro de coleta a cada orbe que é coletada. 
 
 ## 🛠️ Tecnologias Utilizadas
 
