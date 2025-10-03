@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, View, Dimensions, Text, TouchableOpacity} from 'react-native';
 import { Gyroscope } from 'expo-sensors';
+import { Audio } from 'expo-av';
 
 const { width, height } = Dimensions.get('window');
 const PLAYER_SIZE = 50;
@@ -22,6 +23,24 @@ export default function App() {
   const [score, setScore] = useState(0);
   const [gameMode, setGameMode] = useState(null);
   const [timeLeft, setTimeLeft] = useState(0);
+
+  const soundObject = useRef(new Audio.Sound());
+
+  useEffect(() => {
+    const loadSound = async () => {
+      try {
+        await soundObject.current.loadAsync(require('../assets/sounds/collect.mp3'));
+      } catch (error) {
+        console.error("Não foi possível carregar o som", error);
+      }
+    };
+    
+    loadSound();
+
+    return () => {
+      soundObject.current.unloadAsync();
+    };
+  }, []);
 
   useEffect(() => {
     let subscription;
